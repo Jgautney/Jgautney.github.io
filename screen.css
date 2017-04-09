@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 3 solid red;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
@@ -54,9 +54,18 @@ a {
   a:hover {
     color: #009ce0; }
 h1 {
-  font-size : 8em;
+  font-size : 4em;
   color: #0c090a;
 }
+p {
+  font-size: 2em;
+  color: #0c090a;
+}
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e4/5f/54/e45f54e2cc5516e2210c34453db5ab6e.jpg")
+}
+
 
 #main {
-  padding: 50px; }
+  padding: 50px; 
+}
